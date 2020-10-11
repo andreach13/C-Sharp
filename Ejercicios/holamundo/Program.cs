@@ -6,7 +6,13 @@ namespace holamundo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string nombre;
+            Console.Clear();
+
+            Console.Write("Ingrese su nombre: ");
+             
+            nombre = Console.ReadLine();
+            Console.WriteLine("Hello "+ nombre);
         }
     }
 }
