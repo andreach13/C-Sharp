@@ -387,7 +387,7 @@ public class ReinoAnimal
 
     public void Dragon()
     {
-        Reptiles dragon = ListadeReptiles.Find(p => p.Nombre == "Dragon");
+        Reptiles dragon = ListadeReptiles.Find(p => p.Nombre == "Dragon de Komodo");
         
             Console.Clear();
             Console.WriteLine("Nombre:        " +    dragon.Nombre);
